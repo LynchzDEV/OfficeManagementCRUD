@@ -16,7 +16,7 @@ This project is a CRUD (Create, Read, Update, Delete) application for office man
 - **MySQL:** As the database to store office data.
 
 ## Structure
-
+```md
 OfficeManagementCRUD
 ├── README.md
 ├── mvnw
@@ -58,6 +58,7 @@ OfficeManagementCRUD
 ├── pom.xml
 │
 etc. (not necessarily)
+```
 
 - **Servlets:** The `src/main/java/int202/officecrud/officecrud` directory contains servlets like `HelloServlet`, `OfficeAddServlet`, `OfficeFindServlet`, etc., for handling various operations.
 - **Models:** The `src/main/java/int202/officecrud/officecrud/model` directory includes models like `Employee`, `Environment`, and `Office`.
